@@ -4,20 +4,25 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<title>Земля-Луна + самолеты(анимация)</title>
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 <body>
-	<div class="sky" data-paroller-factor = "0.5" data-paroller-direction="horizontal">
-		<div>
-			<p class="text">проскрольте, наведите мышкой на правый самолет</span></p>
+	<p class="message">Только для просмотра на экранах 1750+</p>
+	<div class="wrapper">
+		<div class="sky" data-paroller-factor = "0.5" data-paroller-direction="horizontal">
+			<div>
+				<p class="text">проскрольте, наведите мышкой на правый самолет</span></p>
+			</div>
+			<div class="plane">
+				<div class="anime"><img class="plane-2" src="images/plane-2.png"></div>
+				<div class="plane-inner"><img src="images/plane-1.png"></div>
+			</div>
 		</div>
-		<div class="plane">
-			<div class="anime"><img class="plane-2" src="images/plane-2.png"></div>
-			<div class="plane-inner"><img src="images/plane-1.png"></div>
+		<div class="earth-moon">
+			<img class="earth" src="images/Earth.png" width="800" height="790" alt="Earth" title="Earth" />
+			<img class="moon" src="images/Moon.png" width="499" height="500" alt="Moon" title="Moon" />
 		</div>
-	</div>
-	<div>
-		<img class="earth" src="images/Earth.png" width="800" height="790" alt="Earth" title="Earth" />
-		<img class="moon" src="images/Moon.png" width="499" height="500" alt="Moon" title="Moon" />
 	</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
